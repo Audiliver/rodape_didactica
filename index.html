@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rodapé Didáctica</title>
+  <style>
+    /* Estilos para manter as imagens lado a lado */
+    .link-container {
+      display: flex;
+      justify-content: space-around;
+    }
+    .link-container img {
+      width: 150px; /* Ajuste o tamanho conforme necessário */
+      height: fit-content;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="link-container">
+    <img src="assets/1.png" alt="Link 1" id="img1">
+    <img src="assets/2.png" alt="Link 2" id="img2">
+    <img src="assets/3.png" alt="Link 3" id="img3">
+    <img src="assets/4.png" alt="Link 4" id="img4">
+    <img src="assets/5.png" alt="Link 5" id="img5">
+  </div>
+
+  <script>
+    // Links para cada imagem
+    const links = [
+      "https://didactica.com.br/",
+      "https://youtube.com/tudosobreaprender",
+      "https://linkedin.com/didacticabr",
+      "https://instagram.com/didactica_br",
+      "https://facebook.com/didacticabr"
+    ];
+
+    // Aplica os links usando querySelector
+    document.querySelector('#img1').addEventListener('click', () => {
+      window.open(links[0], '_blank');
+    });
+    document.querySelector('#img2').addEventListener('click', () => {
+      window.open(links[1], '_blank');
+    });
+    document.querySelector('#img3').addEventListener('click', () => {
+      window.open(links[2], '_blank');
+    });
+    document.querySelector('#img4').addEventListener('click', () => {
+      window.open(links[3], '_blank');
+    });
+    document.querySelector('#img5').addEventListener('click', () => {
+      window.open(links[4], '_blank');
+    });
+  </script>
+</body>
+</html>
