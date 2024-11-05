@@ -9,11 +9,12 @@
 /* Estilos para manter as imagens lado a lado */
 .link-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 720px;
 }
 
 .link-container img {
-  width: 120px;
+  width: 80px;
   height: fit-content;
 }
 
