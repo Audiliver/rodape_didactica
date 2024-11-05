@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+  }
+
+/* Estilos para manter as imagens lado a lado */
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-container img {
+  width: 120px;
+  height: fit-content;
+}
+
+a, a:hover{
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: #533d67;
+  text-align: center;
+}
+
